@@ -182,16 +182,24 @@ p {
 .cab-1 {
     animation: first-text 1s ease-in-out 1s backwards;
     text-shadow: #d2d2d2;
-      font-family: 'Tangerine';
-      font-size: 6rem;
+    font-family: 'Tangerine';
+    font-size: 6rem;
 }
 
 .cab-2 {
     animation: second-text 1s ease-in-out 2s backwards;
+    font-family: 'Tangerine';
+    font-size: 4rem;
 }
 
 .cab-3 {
     animation: third-text 2s ease-in-out 3s backwards;
+    z-index: -1;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
 }
 
 .arrow-down {

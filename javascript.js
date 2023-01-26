@@ -132,12 +132,12 @@ window.onscroll = function() {
 /* Typed.js */
 let typed = new Typed("#typed", {
     strings: [
-        '<span class="saludo">desarrollador</span>',
-        '<span class="saludo">programador</span>',
-        '<span class="saludo">investigador</span>',
-        '<span class="saludo">creador</span>',
-        '<span class="saludo">estudiante</span>',
-        '<span class="saludo">soñador</span>'
+        '<span class="saludo">desarrolladora</span>',
+        '<span class="saludo">programadora</span>',
+        '<span class="saludo">investigadora</span>',
+        '<span class="saludo">creadora</span>',
+        '<span class="saludo">curiosa</span>',
+        '<span class="saludo">soñadora</span>'
     ],
     typeSpeed: 80,
     loop: true,
