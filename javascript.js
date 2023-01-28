@@ -150,7 +150,7 @@ let typed = new Typed("#typed", {
 
 let age = document.querySelector(".age");
 
-var years = moment().diff('1995-07-19', 'years');
+var years = moment().diff('1981-03-24', 'years');
 console.log("desde aqui edad")
 console.log(years)
 

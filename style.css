@@ -70,11 +70,13 @@ p {
     position: absolute;
     top: 5%;
     left: 15%;
+    
 }
 
 @keyframes el1 {
     0% {
         transform: translateY(0px);
+        
     }
 
     50% {
@@ -180,16 +182,24 @@ p {
 }
 
 .cab-1 {
-    animation: first-text 1s ease-in-out 1s backwards;
+    /* animation: first-text 1s ease-in-out 1s backwards; */
     text-shadow: #d2d2d2;
     font-family: 'Tangerine';
-    font-size: 6rem;
+    font-size: 6rem; 
+    animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s;
 }
+/* .cab-1a{
+    animation: backInLeft 1s ease-in-out; /* referring directly to the animation's @keyframe declaration 
+    animation-duration: 3s;
+   
+} */
 
 .cab-2 {
     animation: second-text 1s ease-in-out 2s backwards;
     font-family: 'Tangerine';
     font-size: 4rem;
+   
 }
 
 .cab-3 {
@@ -209,7 +219,6 @@ p {
 .arrow-down-move {
     animation: arrow-down-move 2s ease-in-out 4s backwards infinite;
 }
-
 
 @keyframes first-text {
     0% {
