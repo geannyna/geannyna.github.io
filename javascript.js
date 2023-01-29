@@ -56,7 +56,6 @@ observer.observe(certificates);
 observer.observe(btnCurriculum);
 
 /* iconos */
-// esto hay que mejorarlo muchísimo con un forEach
 
 const items = document.querySelector(".icons");
 const itemsCont = document.querySelector(".skill-icon");
@@ -112,14 +111,6 @@ let langSel = document.querySelector("#languageSel");
         langSel.classList.remove("visible");
     });
 
-/* window.addEventListener("scroll", e => {
-    if(window.scrollY >= 100) {
-        console.log("haciendo scroll")
-        lang.style.opacity = "0 !important";
-    } else {
-        lang.style.opacity = "1 !important";
-    }
-}) */
 
 window.onscroll = function() {
     if(window.scrollY >= 300) {

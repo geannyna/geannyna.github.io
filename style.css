@@ -12,7 +12,7 @@
 }
 
 :root {
-    --background-color: #0f0f0f;
+    --background-color: #00001c;
     --second-color: #532E1C;
     --third-color: #C5A880;
     --white-color: #E6E6E6;
@@ -68,8 +68,8 @@ p {
 .el1 {
     animation: el1 6s ease-in-out backwards infinite;
     position: absolute;
-    top: 5%;
-    left: 15%;
+    top: 7%;
+    left: 5%;
     
 }
 
@@ -84,7 +84,7 @@ p {
     }
 
     100% {
-        fransform: translateY(0px);
+        transform: translateY(0px);
     }
 }
 
@@ -92,8 +92,8 @@ p {
 .el2 {
     animation: el2 6s ease-in-out backwards .5s infinite;
     position: absolute;
-    top: 50%;
-    left: 25%;
+    top: 25%;
+    left: 75%;
 }
 
 @keyframes el2 {
@@ -106,15 +106,15 @@ p {
     }
 
     100% {
-        fransform: translateY(0px);
+        transform: translateY(0px);
     }
 }
 
 .el3 {
     animation: el3 6s ease-in-out backwards 1s infinite;
     position: absolute;
-    top: 75%;
-    right: 15%;
+    top: 55%;
+    left: 70%;
 }
 
 @keyframes el3 {
@@ -127,7 +127,7 @@ p {
     }
 
     100% {
-        fransform: translateY(0px);
+        transform: translateY(0px);
     }
 }
 
@@ -135,8 +135,8 @@ p {
 .el4 {
     animation: el4 6s ease-in-out backwards 1.5s infinite;
     position: absolute;
-    bottom: 65%;
-    right: 20%;
+    bottom: 45%;
+    left: 15%;
 }
 
 @keyframes el4 {
@@ -149,7 +149,7 @@ p {
     }
 
     100% {
-        fransform: translateY(0px);
+        transform: translateY(0px);
     }
 }
 
@@ -182,18 +182,13 @@ p {
 }
 
 .cab-1 {
-    /* animation: first-text 1s ease-in-out 1s backwards; */
+    animation: first-text 1s ease-in-out 1s backwards;
     text-shadow: #d2d2d2;
     font-family: 'Tangerine';
     font-size: 6rem; 
-    animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation: backInLeft; 
     animation-duration: 3s;
 }
-/* .cab-1a{
-    animation: backInLeft 1s ease-in-out; /* referring directly to the animation's @keyframe declaration 
-    animation-duration: 3s;
-   
-} */
 
 .cab-2 {
     animation: second-text 1s ease-in-out 2s backwards;
@@ -359,64 +354,24 @@ p {
 
 /* CURRICULUM BUTTON */
 
-@import url('https://fonts.googleapis.com/css?family=Barrio|Montserrat:700');
+/* @import url('https://fonts.googleapis.com/css?family=Barrio|Montserrat:700'); */
 
-#btn-curriculum {
-    margin: auto;
-    padding: 1rem;
-    text-transform: uppercase;
-    color: #fafafa;
-    background-color: rgb(18, 118, 168);
-    border: none;
-    border-radius: 3px;
-    box-shadow: 1px 1px 10px rgba(50, 50, 50, .4);
-    transition: .3s all ease;
-    letter-spacing: .1rem;
-    font-size: .85rem;
-    position: relative;
-    top: 0;
-    right: 0;
-    padding-left: 2.5rem;
-    transition: 1s;
+.btn-curriculum:hover{
+   
+    transition: 1s ease-in-out 1s;
+    background-color: rgb(2, 2, 88);
+   
+}
+.btn-curriculum{
+    background-color: transparent;
+    transition: 1s ease-in-out 1s;
+    animation: rubberBand 3s ease-in-out 3s;
+    border: 2px dashed white;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
 }
 
-#btn-curriculum:before {
-    content: '_';
-    position: absolute;
-    left: 1.4rem;
-    top: .9rem;
-    transition: 1s;
-}
-
-#btn-curriculum:after {
-    content: '>';
-    position: absolute;
-    left: .8rem;
-    top: 1rem;
-    transition: 1s;
-}
-
-#btn-curriculum:hover {
-    box-shadow: 1px 1px 20px rgba(150, 150, 150, .2);
-    top: -.3rem;
-    right: -.1rem;
-    cursor: pointer;
-}
-
-#btn-curriculum:hover::before {
-    content: '_';
-    position: absolute;
-    left: .95rem;
-    top: .72rem;
-    transform: translateY(-1px);
-}
-
-#btn-curriculum:hover::after {
-    content: '>';
-    position: absolute;
-    left: 1.1rem;
-    top: 1rem;
-}
 /* PROJECTS WINDOW */
 #projects-w{
     display: none;
