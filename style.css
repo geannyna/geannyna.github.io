@@ -360,7 +360,6 @@ p {
    
     transition: 1s ease-in-out 1s;
     background-color: rgb(2, 2, 88);
-   
 }
 .btn-curriculum{
     background-color: transparent;
@@ -371,6 +370,15 @@ p {
     width: 200px;
     height: 40px;
 }
+.img_body:hover{
+    transition: 1s ease-in-out 1s;
+    animation: rubberBand 2s ease-in-out 2s;
+}
+.img_body{
+    transition: 1s ease-in-out 1s;
+    animation: rubberBand 2s ease-in-out 2s;  
+}
+
 
 /* PROJECTS WINDOW */
 #projects-w{
