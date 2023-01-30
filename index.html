@@ -44,11 +44,11 @@ vamos a crear algo impresionantes!
     <!-- google font 8bit -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans&effect=shadow-multiple|3d-float" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine:bold|Inconsolata:italic|Droid+Sans&effect=shadow-multiple|3d-float" rel="stylesheet">
     <title>ClaudiaGI</title>
 </head>
 
-<body>
+<body class="container-fluid">
     <!-- language selector -->
     <p id="language-cont">
         <a class="text-decoration-none
@@ -74,27 +74,27 @@ vamos a crear algo impresionantes!
 
     <!-- above the fold -->
     <div class="heading container">
-        <div class="row">
-            <div class="col-12 mt-3 col-md-6 d-flex justify-content-center align-items-center">
+        <div class="row container-fluid col-12">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
                 <div class="text-header pt-3">
-                    <h3 class="cabecera fs-1">
-                        <p class="cab-1 animate__animated animate__backInLeft">¡Hola! mi nombre es <b class="cab-1a animate__animated animate__backInLeft">Claudia</b></p>
-                        <span class="cab-2">Soy <i> /</i> <span id="typed"></span>
+                    <h3 class="cabecera fs-3">
+                        <p class="cab-1 animate__animated animate__backInLeft">¡Hola! mi nombre es <b class="animate__animated animate__backInLeft cab-1">Claudia</b></p>
+                        <span class="cab-2">Soy <i>/</i> <span id="typed"></span>
                         <p id="jocker" class="fs-6 mt-3 fst-italic"></p>
                     </h3>
                 </div>
             </div>
-            <div class="col-12 mt-3 col-md-6 d-flex justify-content-center align-items-center cab-3">
+            <div class="col-12 col-md-6 mt-3 d-flex justify-content-center align-items-center cab-3">
                 <div class="img-header cab-3-cont">
                     <img class="cab-3 img-fluid" src="./media/img/yo4.png">
                     <p class="fs-1 opacity-75 icon el1">
                         < html / >
                     </p>
-                    <p class="fs-1 opacity-75 icon el2">{{ }}</p>
+                    <p class="fs-1 opacity-75 icon el2">{ }</p>
                     <p class="fs-1 opacity-75 icon el3">
                          < ?php
                     </p>
-                    <p class="fs-1 opacity-75 icon el4">{ }
+                    <p class="fs-1 opacity-75 icon el4">{{ }}
                     </p>
                 </div>
             </div>
@@ -115,8 +115,10 @@ vamos a crear algo impresionantes!
     <!-- FINAL ABOVE THE FOLD -->
 
     <!-- first section -->
-
-    <section class="container-fluid mt-4">
+    <div class="container-fluid mt-4">
+        <div class="col-12">
+            <div class="row">
+               <section>
         <div class="row">
             <div class="col-12">
                 <h1 class="pt-4 title-first"> /¿Quien soy? </h1>
@@ -140,8 +142,11 @@ vamos a crear algo impresionantes!
                     podamos recorrer ese camino juntos.</p>
             </div>
         </div>
-    </section>
-
+                </section>  
+            </div>
+        </div>
+   
+    </div>
     <!-- second section -->
 
     <section class="sectionSkills container-fluid mt-4">

@@ -1,5 +1,5 @@
 let typed2 = new Typed("#typed2", {
-    strings: [
+    strings:[
         '<span class="saludo">developer</span>',
         '<span class="saludo">programmer</span>',
         '<span class="saludo">investigator</span>',
