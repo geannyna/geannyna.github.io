@@ -14,22 +14,10 @@ const projectsCont = document.querySelector('#projects-cont');
 const jocker = document.querySelector('#jocker');
 
 
-/* window.addEventListener("scroll", () => {
-    if(window.scrollY > 400) {
-        titleFirst.classList.add("visible")
-    }
-})
-
-window.addEventListener("scroll", () => {
-    if(window.scrollY > 400) {
-        basicData.classList.add("visible")
-    }
-}) */
-
 function callback(entries, observer) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-        console.log('Elemento visible');
+        //console.log('Elemento visible');
         observer.unobserve(entry.target);
         entry.target.classList.add("visible");
         entry.target.style.transform = "translateY(-20px)";
@@ -39,7 +27,7 @@ function callback(entries, observer) {
 
 const options = {
     root: null,
-    rootMargin: '0px',
+    rootMargin: '250px',
     threshold: 0.5
 };
 
@@ -113,12 +101,13 @@ let langSel = document.querySelector("#languageSel");
 
 
 window.onscroll = function() {
-    if(window.scrollY >= 300) {
+    if(window.scroll >= 10) {
         lang.style.opacity = "0";
     } else {
         lang.style.opacity = "1";
     }
 };
+
 
 /* Typed.js */
 let typed = new Typed("#typed", {

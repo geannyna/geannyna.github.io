@@ -46,23 +46,6 @@ p {
     z-index: 9999;
 }
 
-/* HEADER */
-
-.heading {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.img-header {
-    position: relative;
-    transition: 1s;
-    animation: cont-header 5s ease-in-out backwards infinite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* img icons */
 
 .el1 {
@@ -169,10 +152,30 @@ p {
     }
 
 }
+/* HEADER */
 
+.heading {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img-header {
+    position: relative;
+    transition: 1s;
+    animation: cont-header 5s ease-in-out backwards infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .saludo {
     font-family: 'Press Start 2P', cursive;
-    font-size: .6em;
+    font-size: .5em;
+}
+.cabecera{
+    height: 660px;
+    margin-top: 180px;
+    
 }
 
 .text-header {
@@ -193,8 +196,7 @@ p {
 .cab-2 {
     animation: second-text 1s ease-in-out 2s backwards;
     font-family: 'Tangerine';
-    font-size: 4rem;
-   
+    font-size: 3rem; 
 }
 
 .cab-3 {
@@ -287,8 +289,8 @@ p {
 }
 
 .txt-1 {
-    opacity: 0;
-    transition: 2s ease-in-out;
+    opacity: 0.2;
+    transition: 1.5s ease-in-out;
 }
 
 .prueba2 {
@@ -356,11 +358,6 @@ p {
 
 /* @import url('https://fonts.googleapis.com/css?family=Barrio|Montserrat:700'); */
 
-.btn-curriculum:hover{
-   
-    transition: 1s ease-in-out 1s;
-    background-color: rgb(2, 2, 88);
-}
 .btn-curriculum{
     background-color: transparent;
     transition: 1s ease-in-out 1s;
@@ -370,15 +367,20 @@ p {
     width: 200px;
     height: 40px;
 }
-.img_body:hover{
+.btn-curriculum:hover{
+   
     transition: 1s ease-in-out 1s;
-    animation: rubberBand 2s ease-in-out 2s;
-}
-.img_body{
-    transition: 1s ease-in-out 1s;
-    animation: rubberBand 2s ease-in-out 2s;  
+    background-color: rgb(2, 2, 88);
 }
 
+.img_body{
+    transition: 1s ease-in-out 1s;
+    animation: zoomInUp 2s ease-in-out 2s;  
+}
+.img_body:hover{
+    transition: 1s ease-in-out 1s;
+    animation: zoomInUp 2s ease-in-out 2s;
+}
 
 /* PROJECTS WINDOW */
 #projects-w{
