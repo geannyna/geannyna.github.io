@@ -169,8 +169,8 @@ p {
     align-items: center;
 }
 .saludo {
-    font-family: 'Press Start 2P', cursive;
-    font-size: .5em;
+    font-family: 'Press Start 2P', normal;
+    font-size: .8em;
 }
 .cabecera{
     height: 660px;
@@ -196,7 +196,7 @@ p {
 .cab-2 {
     animation: second-text 1s ease-in-out 2s backwards;
     font-family: 'Tangerine';
-    font-size: 3rem; 
+    font-size: 2.5rem; 
 }
 
 .cab-3 {
