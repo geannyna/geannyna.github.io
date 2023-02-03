@@ -101,7 +101,7 @@ let langSel = document.querySelector("#languageSel");
 
 
 window.onscroll = function() {
-    if(window.scroll >= 10) {
+    if(window.scrollY >= 20) {
         lang.style.opacity = "0";
     } else {
         lang.style.opacity = "1";
