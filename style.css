@@ -437,7 +437,7 @@ p {
     width: 99%;
     height: 40%;
     background-color: #00001c;
-    transition: 1.5s;
+    transition: 1s;
     transform-origin: center;
   }
   
@@ -450,15 +450,15 @@ p {
     width: 99%;
     height: 40%;
     background-color: #00001c;
-    transition: 1.5s;
+    transition: 1s;
   }
   
   .btn-curriculum:hover::before, .btn-curriculum:hover::after {
     transform: scale(0);
-    transition: 1.5s ease-in-out;
+    transition: 1s ease-in-out;
   }
   
   .btn-curriculum:hover {
     box-shadow: inset 0px 0px 15px #e6e4e472;
-    transition: 1.5s ease-in-out;
+    transition: 1s ease-in-out;
   }
