@@ -387,6 +387,43 @@ p {
     box-shadow: 3px 3px 10px 3px rgb(75, 75, 75);
     position: relative;
 }
+
+/* creamos el efecto zoom de los proyectos*/
+.light_box{
+    position: fixed;
+    top: 0;
+    left:0;
+    background: #00001ce0;
+    transition: transform .4s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.light_box img{
+    width: 75vw;
+    max-height: 70vh;
+}
+.light_box:target{
+    transform: scale(1);
+}
+.close{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 5%;
+}
+.next{
+    display: block;
+}
+.img_gal{
+    border-radius: 20px;
+}
+
 /* PROJECTS WINDOW */
 #projects-w{
     display: none;
@@ -430,40 +467,40 @@ p {
     background-color: rgb(2, 2, 88);
 } */
 .btn-curriculum {
-    border: 2px dashed #9d9d9e;
+    border: 3px solid #9d9d9e;
     border-radius: 10px;
     width: 200px;
-    height: 40px;
+    height: 45px;
     background-color: transparent;
     transition: 1s;
     font-size: 16px;
     font-weight: bold;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-top: transparent;
+    border-left-color: #9d9d9e;
+    border-right-color: #9d9d9e;
   }
   
   .btn-curriculum::after {
     content: "";
     position: absolute;
-    top: -10px;
-    left: 0;
-    width: 99%;
-    height: 40%;
+    transform-origin: center;
+    top: -4px;
+    left: 6px;
+    width: 94%;
+    height: 20%;
     background-color: #00001c;
     transition: 1s;
-    transform-origin: center;
   }
   
   .btn-curriculum::before {
     content: "";
-    transform-origin: center;
     position: absolute;
-    top: 80%;
-    left: 0;
-    width: 99%;
-    height: 40%;
+    transform-origin: center;
+    top: 90%;
+    left: 6px;
+    width: 94%;
+    height: 18%;
     background-color: #00001c;
+    /* #00001c; */
     transition: 1s;
   }
   
@@ -473,6 +510,6 @@ p {
   }
   
   .btn-curriculum:hover {
-    box-shadow: inset 0px 0px 15px #e6e4e472;
+    box-shadow: 0px 0px 25px #e6e4e472;
     transition: 1s ease-in-out;
   }
