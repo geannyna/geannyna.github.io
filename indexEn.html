@@ -211,6 +211,88 @@ Let's create something amazing!
         </div>
     </section>
 
+        <!-- proyectos -->
+        <section class="container-fluid my-4">
+            <!-- script para mantener la position al cerrar el carusel -->
+            <script>
+                window.onload=function(){
+                var pos=window.name || 0;
+                window.scrollTo(0,pos);
+                }
+                window.onunload=function(){
+                window.name=self.pageYOffset || (document.documentElement.scrollTop+document.body.scrollTop);
+                }
+                </script>
+            <div>
+                <div class="col-12">
+                    <h1 class="title second p-4"> /Proyectos </h1>
+                </div>
+            </div>
+            <div class="galeria container">
+                <div class="row">
+                    <div class="col-12 text-center col-md-6">
+                        <a href="#p1" title="Click here">
+                            <img class="h-75 img-fluid img_pro" src="./media/img/certificates/p1_1.png" alt="X">
+                        </a>
+                        <p class="mt-2">FastSales</p>
+                    </div>
+                    <div class="col-12 text-center col-md-6">
+                        <a href="#p1" title="Click here">
+                            <img class="h-75 img-fluid img_pro" src="./media/img/certificates/p1_2.png" alt="X">
+                        </a>
+                        <p class="mt-2">Spider Network</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- creamos un espacio donde se abre la galeria -->
+        <article class="light_box" id="p1">
+       
+    
+        <!-- ******* -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide w-75" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./media/img/certificates/p1_1.png" class="d-block w-100" alt="No hay imagen">
+                <!-- <img src="./media/img/certificates/textura.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block d-md-block">
+                  <h5>First slide label</h5>
+                  <p class="text-dark">Some representative placeholder content for the first slide. Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ullam hic dolorem ipsum repellat labore neque fugiat iure praesentium optio suscipit tempora architecto quaerat esse, amet maiores dolor non reiciendis.</p>
+                </div> -->
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./media/img/certificates/p1_2.png" class="d-block w-100" alt="No hay imagen">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div> -->
+              </div>
+              <!-- <div class="carousel-item">
+                <img src="./media/img/certificates/p1_2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            
+          </div>
+        <a href="" class="close"><i class="bi bi-x-circle text-danger fs-3"></i></a>
+        </article>
     <!-- goodbye -->
 
     <section class="container-fluid my-5 Footer">
@@ -253,13 +335,18 @@ Let's create something amazing!
         </div>
     </section>
     <hr>
-    <section class="container-fluid downFooter d-flex align-items-center">
-        <div class="row">
-            <div class="col-12">
-                <p class="my-0 py-0" style="font-size: 12px;">You have the right to copy the
-                    code on github, modify it and do whatever you want, for me it would be an honor. Feel free. 😊</p>
+    <section class="container-fluid downFooter">
+        <div class="row d-flex justify-content-space-between">
+            <div>
+                <p class="m-4" style="font-size: 12px;">You have the right to copy the
+                    code on github, modify it and do whatever you want, for me it would be an honor. Feel free. 
+                    <img src="./media/img/sonrisa.png" alt=""></p>
             </div>
+        
+        <div class="d-flex justify-content-end mb-3 me-5 pe-5 fixed-bottom">
+            <a href="#"><img src="./media/img/up.png" alt=""></a>
         </div>
+    </div>
     </section>
 
 

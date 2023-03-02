@@ -382,11 +382,11 @@ p {
     border-color: transparent;
     border-radius: 20px;
 }
-.img_pro:hover{
+/* .img_pro:hover{
     transform: scale(1.2);
     box-shadow: 3px 3px 10px 3px rgb(75, 75, 75);
     position: relative;
-}
+} */
 
 /* creamos el efecto zoom de los proyectos*/
 .light_box{
@@ -409,13 +409,13 @@ p {
     max-height: 70vh;
 }
 .light_box:target{
-    transform: scale(1);
+    transform: scale(1.1);
 }
 .close{
     display: block;
     position: absolute;
-    top: 40px;
-    right: 5%;
+    top: 60px;
+    right: 9%;
 }
 .next{
     display: block;
@@ -423,6 +423,8 @@ p {
 .img_gal{
     border-radius: 20px;
 }
+/* carousel */
+
 
 /* PROJECTS WINDOW */
 #projects-w{
