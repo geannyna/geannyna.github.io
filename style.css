@@ -458,20 +458,7 @@ p {
     border-radius: 15px 15px 0px 0px;
     background: var(--second-color);
 }
-/* .btn-curriculum{
-    background-color: transparent;
-    transition: 1s ease-in-out 1s;
-    animation: rubberBand 3s ease-in-out 3s;
-    border: 2px dashed white;
-    border-radius: 20px;
-    width: 200px;
-    height: 40px;
-}
-.btn-curriculum:hover{
-   
-    transition: 1s ease-in-out 1s;
-    background-color: rgb(2, 2, 88);
-} */
+
 .btn-curriculum {
     border: 3px solid #9d9d9e;
     border-radius: 10px;
@@ -519,3 +506,26 @@ p {
     box-shadow: 0px 0px 25px #e6e4e472;
     transition: 1s ease-in-out;
   }
+ /* -------- spider ------- */
+ .sp_body{
+    padding: 10px;
+ }
+  .sp_carousel{
+    /* position: fixed; */
+    top: 0;
+    left:0;
+    background: #00001ce0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.msp_carousel{
+    height: 100%;
+    /* width: 600px; */
+    /* border: 2px solid rgb(205, 213, 255); */
+    border-radius: 20px;
+    background-color: transparent;
+}
