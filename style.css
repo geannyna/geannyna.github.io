@@ -54,7 +54,7 @@ p {
 .el1 {
     animation: el1 6s ease-in-out backwards infinite;
     position: absolute;
-    top: 31%;
+    top: 38%;
     left: 88%;
     
 }
@@ -78,8 +78,8 @@ p {
 .el2 {
     animation: el2 6s ease-in-out backwards .5s infinite;
     position: absolute;
-    top: 35%;
-    left: 85%;
+    top: 49%;
+    left: 78%;
 }
 
 @keyframes el2 {
@@ -179,8 +179,7 @@ p {
 }
 .cabecera{
     height: 660px;
-    margin-top: 180px;
-    
+    margin-top: 10px; 
 }
 
 .text-header {
@@ -193,7 +192,7 @@ p {
     animation: first-text 1s ease-in-out 1s backwards;
     text-shadow: #d2d2d2;
     font-family: 'Tangerine';
-    font-size: 6rem; 
+    font-size: 5rem; 
     animation: backInLeft; 
     animation-duration: 3s;
 }
@@ -212,6 +211,7 @@ p {
     z-index: -1;
     width: 100%;
     height: 100%;
+    position: relative;
     /* -webkit-filter: blur(1px);
     filter: blur(1px); */
 }
