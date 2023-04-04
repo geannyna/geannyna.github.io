@@ -55,7 +55,7 @@ p {
     animation: el1 6s ease-in-out backwards infinite;
     position: absolute;
     top: 38%;
-    left: 88%;
+    left: 80%;
     
 }
 
@@ -78,8 +78,8 @@ p {
 .el2 {
     animation: el2 6s ease-in-out backwards .5s infinite;
     position: absolute;
-    top: 49%;
-    left: 78%;
+    top: 55%;
+    left: 71%;
 }
 
 @keyframes el2 {
