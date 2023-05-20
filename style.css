@@ -15,7 +15,7 @@
     -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 :root {
-    --background-color: #00001c;
+    --background: linear-gradient(to top,#00001c,#22225f,#00001c);
     --second-color: #532E1C;
     --third-color: #C5A880;
     --white-color: #E6E6E6;
@@ -23,7 +23,7 @@
 
 body {
     overflow-x: hidden;
-    background-color: var(--background-color) !important;
+    background: var(--background) !important;
 }
 
 p {
