@@ -15,7 +15,7 @@
     -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 :root {
-    --background: linear-gradient(to top,#00001c,#22225f,#00001c);
+    --background: linear-gradient(to top,#00000a,#02024e,#00000a);
     --second-color: #532E1C;
     --third-color: #C5A880;
     --white-color: #E6E6E6;
@@ -383,7 +383,10 @@ p {
     margin-top: 20px;
     border-color: transparent;
     border-radius: 20px;
-   
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: 3px solid rgb(248, 248, 250);
+    box-shadow: 3px 3px 9px 2px rgb(239, 239, 239);
 }
 /* .img_pro:hover{
     transform: scale(1.2);
