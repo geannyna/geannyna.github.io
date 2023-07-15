@@ -372,7 +372,9 @@ p {
     animation: zoomInUp 2s ease-in-out 2s;  
     margin-top: 20px;
     border-color: transparent;
-    /* box-shadow: 3px 1px 15px 1px rgb(196, 195, 195); */
+    border: 3px solid rgb(248, 248, 250);
+    box-shadow: 2px 2px 8px 1px rgb(239, 239, 239);
+    
 }
 .img_body:hover{
     transition: 1s ease-in-out 1s;
