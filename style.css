@@ -54,7 +54,7 @@ p {
 .el1 {
     animation: el1 6s ease-in-out backwards infinite;
     position: absolute;
-    top: 38%;
+    top: 14%;
     left: 80%;
     
 }
@@ -78,8 +78,8 @@ p {
 .el2 {
     animation: el2 6s ease-in-out backwards .5s infinite;
     position: absolute;
-    top: 55%;
-    left: 71%;
+    top: 25%;
+    left: 69%;
 }
 
 @keyframes el2 {
@@ -170,7 +170,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius:50%;
     box-shadow: 3px 4px 5px rgba(235, 237, 255, 0.427);
 }
 .saludo {
@@ -178,7 +178,7 @@ p {
     font-size: .7em;
 }
 .cabecera{
-    height: 660px;
+    height: 400px;
     margin-top: 10px; 
 }
 
@@ -216,6 +216,9 @@ p {
     filter: blur(1px); */
 }
 
+.cab-3-cont{
+    width: 400px;
+}
 .arrow-down {
     animation: arrow-down 2s ease-in-out 4s backwards;
 }
@@ -414,11 +417,14 @@ p {
 }
 
 .light_box img{
-    width: 75vw;
-    max-height: 70vh;    
+    width: auto;
+    max-height: 70vh; 
+    border-radius: 25px;
+    border: 1px solid white;   
 }
 .light_box:target{
     transform: scale(1.1);
+   
 }
 .close{
     display: block;
