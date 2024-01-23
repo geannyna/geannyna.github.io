@@ -491,7 +491,7 @@ p {
     left: 6px;
     width: 94%;
     height: 20%;
-    background-color: #00001c;
+    background-color: #000013;
     transition: 1s;
   }
   
@@ -503,7 +503,7 @@ p {
     left: 6px;
     width: 94%;
     height: 18%;
-    background-color: #000017;
+    background-color: #00000a;
     /* #00001c; */
     transition: 1s;
   }
